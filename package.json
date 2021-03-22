@@ -1,0 +1,26 @@
+{
+  "name": "node-easy-notes-app",
+  "version": "1.0.0",
+  "description": "Following tutorial from https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizIkhwan/node-easy-notes-apps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaizIkhwan/node-easy-notes-apps/issues"
+  },
+  "homepage": "https://github.com/FaizIkhwan/node-easy-notes-apps#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "nodemon": "^2.0.7"
+  }
+}
